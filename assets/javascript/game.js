@@ -19,7 +19,7 @@ window.onload = function(){
 
 function computersChoice(){
     computersOption= ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "_"];
-    let computersChoice = computersOption[Math.floor(Math.random*computersOption.length)];
+    let computersChoice = computersOption[Math.floor(Math.random() * computersOption.length)];
     // let userGuess = String.fromCharCode(event.keyCode).toLowerCase(); not sure how to install this won't work
 }console.log("hello");
 
